@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{text-decoration: none;}
+
+.barra-de-navegacion{ 
+    display: flex;
+    height: 50px;
+    background-color: rgb(75, 74, 74);
+    justify-content:space-between;
+    align-items: center;
+    font-size: 2vmin;
+   
+    
+}
+
+
+.logo{ 
+    display:flex;
+    align-items: center;
+    color: rgb(252, 252, 248) ;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.menu a{
+    padding: 20px;
+    
+}
+nav {
+    padding: 5px 20 px;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+nav a{ 
+    color: rgb(170, 170, 170);
+}
+nav a:hover{ 
+    color: rgb(252, 252, 248);
+}
+#ct { color: green;}
+#ct:hover{ color: #fff;}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)), url(/programacion/Oradores/imagenes_integrador/ba1.jpg);
+    background-position:bottom;
+    background-repeat: cover ;
+    display: flex;
+    align-items:flex-start;
+    justify-content: left;
+    
+}
+
+.banner-info{
+    margin-top: 150px;
+    color: aliceblue;
+    z-index: 1;
+    width:fit-content;
+    text-align: right;
+    box-sizing: content-box;
+    padding: 10px ;
+}
+.banner-info{font-size: 4vmin;}
+.botones{ padding: 20px;}
+#bco{
+    padding: 1px 8px;
+    background-color: transparent;
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+#bco:hover{ 
+    color: rgb(225, 245, 169);
+}
+
+#bct {
+    padding: 1px 15px;
+    background-color: rgb(18, 102, 18) ;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 30px;
+}
+#bct:hover{ 
+    color: rgb(205, 219, 159);
+}
+.oradores{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+}
+.card{
+    
+    width: 320px;
+    height: 500px;
+    margin: 10px;
+    
+}
+.txoradores{ 
+    text-align: center;
+    align-items: center;
+
+}
+.cardimg {
+   height: 300px;
+   margin-bottom: 15px;
+}
+.steve{
+    background-image: url(/programacion/Oradores/imagenes_integrador/steve.jpg);
+    background-size: cover;
+}
+.gates{
+    background-image: url(/programacion/Oradores/imagenes_integrador/bill.jpg);
+    background-size: cover;
+}
+.ada{
+    background-image: url(/programacion/Oradores/imagenes_integrador/ada.jpeg);
+    background-size: cover;
+}
+.contenedor{ 
+    display: flex;
+    height: 50vh;
+
+    
+}
+.contenedor img { 
+    width: 50vw;
+    height: 50vh
+
+}
+ .texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding: 10px 10px ;
+    color:aliceblue;
+    background-color: rgb(70, 68, 68);
+    width: 50vw;
+    font-size: 80% ;
+ }
+ .botonbsas{
+    padding: 20px 0px ; 
+    align-items: right;
+    width: 200px;
+    box-sizing:content-box;
+ }
+.bcm{ 
+    padding: 1px;
+    background-color: transparent;
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid #fff;
+    border-radius: 1px;
+
+
+}
+.formulario{
+    width: 90%;
+    height: 50%;
+    align-items: center;
+    text-align: center;
+   
+}
+.input-formulario{
+    margin-bottom: 30px;
+    padding: 10px;
+ }
+ input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 3px solid rgb(170, 166, 166);
+    font-size: 15px;
+ }
+form{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    padding: 30px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dqq { height: 80px; 
+    width: 700px;
+    border: grey;
+    box-sizing: inherit;
+    
+  
+}
+footer{
+   
+    display: flex;
+    background-color: rgb(24, 57, 80);
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    
+    
+}
+ footer a{
+    color: #fff;
+    padding: 10px 50px;
+    margin-right: 10px;
+    font-size: 80%;
+    box-sizing: border-box;
+ }
+ footer a:hover{ 
+    color: rgb(235, 231, 43);
+}
